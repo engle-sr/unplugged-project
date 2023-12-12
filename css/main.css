@@ -466,10 +466,63 @@ footer .copyright {
 }
 
 /*=========DESKTOP===============*/
-@media only screen and (min-width: 1200px) [
+@media only screen and (min-width: 1200px) {
 
-]
+/*GENERAL STYLES*/
+.content-wrapper {
+  max-width: 960px;
+}
 
+/*HEADER*/
+header {
+  padding: 15px 0;
+}
+
+/* HERO-DESKTOP */
+
+.hero-area h1 {
+  width: 80%
+}
+
+/* ASIDE-DESTOP */
+
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+/* FEATURES-DESKTOP */
+
+.features h2 {
+ width: 90%;
+}
+.features article {
+  flex-basis: 33%;
+}
+
+/* REVIEWS-DESKTOP */
+
+.reviews article div {
+  width: 42%;
+
+}
+
+/*=========DESKTOP-ABOUT PAGE====*/
+
+.mission h2,
+.contant-section .content-wrapper h2 {
+  width: 95%;
+}
+
+/*=========DESKTOP-FAQ PAGE====*/
+
+.faq h2 {
+  width: 100%;
+}
 
 /* ==========================================================================
    Print styles.
