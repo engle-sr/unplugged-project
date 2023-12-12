@@ -251,7 +251,7 @@ textarea {
     margin-bottom: 40px;
   }
 
-  .faq-content {
+  .faq-questions {
     margin-bottom: 50px;
   }
 
@@ -343,17 +343,133 @@ textarea {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+/*===========TABLET===============*/
+@media only screen and (min-width: 768px) {
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/*GENERAL STYLES*/
+.content-wrapper {
+  max-width: 640px;
+  margin: 100px 0;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+/*HEADER*/
+header {
+  padding: 33px 0;
 }
+
+header .content-wrapper {
+  width: 100%;
+  justify-content: between;
+}
+
+header nav {
+  width: 20%;
+}
+
+header nav ul {
+  justify-content: space-between;
+}
+
+.header-divider {
+  display: none;
+}
+
+aside .content-wrapper {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 40%;
+  margin: 0;
+}
+
+.features article {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  flex-basis: 50%;
+}
+
+.features .features-item-description {
+  width: 50%;
+}
+
+.reviews article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews article div {
+  width: 49%;
+
+}
+
+footer .content-wrapper {
+  width: 65%
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .contact {
+  margin-bottom: 0;
+}
+
+footer .copyright {
+  width: 100%;
+}
+
+/*=========TABLET-ABOUT PAGE====*/
+
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.mission-content p {
+  width: 45%;
+}
+
+.contact-section .content-wrapper {
+  width: 80%;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/*=========TABLET-FAQ PAGE====*/
+
+.faq .content-wrapper {
+  justify-content: space-between;
+}
+
+.faq-questions {
+  flex-basis: 45%;
+}
+
+.faq h2 {
+  width: 100%;
+}
+
+}
+
+/*=========DESKTOP===============*/
+@media only screen and (min-width: 1200px) [
+
+]
+
 
 /* ==========================================================================
    Print styles.
