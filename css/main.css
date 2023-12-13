@@ -92,12 +92,72 @@ textarea {
     width: 90%;
     margin: 50px 0;
   }
+
+  /* =======GENDERAL STYLES=======*/
+
+  html {
+    font-size: 1rem;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #e2e3ed;
+  }
+
+  ul,
+  ol {
+    list-style-type: none;
+
+  }
+
+  a {
+    color: #e2e3ed;
+     text-decoration: none;
+  }
+
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875em;
+  }
+
+  h3,
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
+    margin: 20px 0;
+  }
+
+  p {
+    font-size: .875em;
+    line-height: 1.125em;
+  }
+
+  img {
+    
+  }
+
+  figure {
+
+  }
+
+  address {
+    font-style: normal;
+  }
+
+  .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
+
+
    /* BASE HEADER - FOOTER STYLES */
   
   header {
     display: flex;
     justify-content: center;
     padding: 15px 0;
+    background: #202322;
   }
 
   header .content-wrapper {
@@ -112,6 +172,7 @@ textarea {
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
+    background:#3a3a3a;
   }
 
   header nav {
@@ -122,6 +183,8 @@ textarea {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    font-size: 1.125em;
+    font-weight: bold;
   }
 
   footer {
@@ -129,6 +192,7 @@ textarea {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background: #202322;
   }
 
   footer p {
@@ -158,6 +222,8 @@ textarea {
 
   footer .copyright {
     margin: 20px 0;
+    display: flex;
+    justify-content: center;
   }
 
   /* ---------MOBILE STYLES - HOMEPAGE---------- */
@@ -208,6 +274,7 @@ textarea {
 
   .reviews h2 {
     margin-bottom: 40px;
+    line-height: 1.875em;
     
   }
 
@@ -249,6 +316,7 @@ textarea {
 
   .faq h2 {
     margin-bottom: 40px;
+    line-height: 1,875em;
   }
 
   .faq-questions {
