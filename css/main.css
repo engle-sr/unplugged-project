@@ -347,12 +347,6 @@ textarea {
     background: #527158;
   }
 
-  .contact-section {
-    display: flex;
-    justify-content: center;
-    background: #2a423a;
-  }
-
   .map figure{
     width: 100%;
     height: 0; 
@@ -369,11 +363,17 @@ textarea {
   left: 0; 
 }
 
+.contact-section {
+  display: flex;
+  justify-content: center;
+  background: #2a423a;
+}
+
   contact-content p {
     margin: 0;
   }
 
-  /* ============================FAQ PAGE===================== */
+  /* ============================FAQ PAGE-MOBILE===================== */
 
   .faq {
     display: flex;
@@ -634,6 +634,10 @@ footer .copyright {
   width: 45%;
 }
 
+.map figure{ 
+  padding-bottom: 45.5%; 
+}
+
 .contact-section .content-wrapper {
   width: 80%;
 }
@@ -743,6 +747,9 @@ footer h4 {
 }
 
 /*=========DESKTOP-ABOUT PAGE====*/
+.map figure{
+  padding-bottom: 37.5%%; 
+}
 
 .mission h2,
 .contant-section .content-wrapper h2 {
