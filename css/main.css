@@ -318,6 +318,11 @@ textarea {
     text-align: center;
   }
 
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
+
   /* REVIEWS */
   .reviews {
     display: flex;
@@ -748,7 +753,7 @@ footer h4 {
 
 /*=========DESKTOP-ABOUT PAGE====*/
 .map figure{
-  padding-bottom: 37.5%%; 
+  padding-bottom: 37.5%; 
 }
 
 .mission h2,
