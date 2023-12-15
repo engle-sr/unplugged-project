@@ -342,13 +342,15 @@ textarea {
   .reviews h2 {
     margin-bottom: 40px;
     line-height: 1;
+    text-align: center;
   }
 
-
-  .reviews h3 {
+  .reviews article {
     width: 55%;
     margin: 20px 0;
+    align-items: center;
   }
+
 
   /* =======================ABOUT PAGE-MOBILE =============================*/
   
