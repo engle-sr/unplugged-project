@@ -104,6 +104,7 @@ textarea {
     font-size: 1em;
     color: #e2e3ed;
     text-align: left;
+    background-color: #202322;
   }
 
   ul,
@@ -122,6 +123,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
     font-weight: 500;
+    margin: 0;
   }
 
   h3,
@@ -253,7 +255,6 @@ textarea {
     background: url('../img/unplugged-retreat.jpg');
     min-height: 500px;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
   }
 
@@ -316,9 +317,13 @@ textarea {
   .features .features-items {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     flex-flow: row wrap;
 
+  }
+
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
   }
 
   .features p {
@@ -326,11 +331,6 @@ textarea {
     text-align: center;
   }
 
-  .features i {
-    font-size: 3.75em;
-    margin-bottom: 40px;
-
-  }
 
   /* REVIEWS */
   .reviews {
@@ -344,9 +344,6 @@ textarea {
     line-height: 1;
   }
 
-  .reviews img {
-
-  }
 
   .reviews h3 {
     width: 55%;
@@ -383,7 +380,7 @@ textarea {
   background: #2a423a;
 }
 
-  contact-content p {
+.contact-content p {
     margin: 0;
   }
 
@@ -392,7 +389,7 @@ textarea {
   .faq {
     display: flex;
     justify-content: center;
-    background: #527158;
+    background-color: #527158;
   }
 
   .faq .content-wrapper {
@@ -576,6 +573,10 @@ aside .content-wrapper .form {
   margin-bottom: 20px;
 }
 
+.features .features-items {
+  align-items: flex-start;
+}
+
 .features article {
   display: flex;
   align-items: center;
@@ -585,6 +586,10 @@ aside .content-wrapper .form {
 
 .features .features-item-description {
   width: 62%;
+}
+
+.features i {
+  margin-bottom: 30px;
 }
 
 .reviews article {
@@ -599,7 +604,6 @@ aside .content-wrapper .form {
 .reviews article div,
 .reviews article figure {
   width: 49%;
-
 }
 
 .reviews h3 {
@@ -615,7 +619,6 @@ footer .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
 }
 
 footer .contact {
@@ -629,6 +632,11 @@ footer h4{
 
 footer p{ 
   line-height: 1.285;
+}
+
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 footer .copyright {
